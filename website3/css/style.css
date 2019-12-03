@@ -1,0 +1,74 @@
+.headerlist ul a{
+    color:goldenrod;
+    
+}
+.headerlist ul a:hover{
+    color:white;
+}
+.headerlist ul li{
+    float:left;
+    padding:10px;
+    list-style:none;
+
+}
+.brand .headerlist{
+    float:right;
+}
+#navigation{
+    background:black;
+    color:white;
+    overflow:auto;
+    margin:0;
+    padding:0;
+}
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 10px ;
+}
+.text-pimary{
+    color:green;
+}
+.showcase-btn{
+    display: inline-block;
+color:rgb(0, 255, 213);
+background:#333;
+padding:3px 20px ;
+text-align: center;
+}
+.container {
+    margin:auto;
+    overflow:auto;
+    padding: 0 20px;
+    height:fit-content;
+}
+html,body{
+    font-family: 'Times New Roman', Times, serif;
+}
+*{
+    margin: 0 ;
+    padding:0;
+    box-sizing: border-box;
+}
+.showcase{
+    background-image:url( "../img/banner.png");
+    background-size:cover;
+    padding:10% 10%;
+    
+}
+.showcase p{
+    color:rgb(77, 40, 18);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:10px;
+    padding-bottom: 10px;
+}
+ .guest-review .container h2{
+     color:yellowgreen;
+     text-transform:uppercase;
+     
+ }
+ .guest-review .container{
+     background-color: rgb(119, 116, 107);
+ }
